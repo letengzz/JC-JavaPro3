@@ -1,0 +1,42 @@
+server:
+  port: 8301
+spring:
+  application:
+    name: borrowservice
+  datasource:
+    url: jdbc:mysql://localhost:3306/springcloud?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123123
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#seata:
+#  service:
+#    vgroup-mapping:
+#      # 这里需要对事务组做映射，默认的分组名为 应用名称-seata-service-group，将其映射到default集群
+#      # 这个很关键，一定要配置对，不然会找不到服务
+#      borrowservice-seata-service-group: default
+#    grouplist:
+#      default: localhost:8868
+seata:
+  # 注册
+  registry:
+    # 使用Nacos
+    type: nacos
+    nacos:
+      # 使用Seata的命名空间，这样才能正确找到Seata服务，由于组使用的是SEATA_GROUP，配置默认值就是，就不用配了
+      namespace: e11f85d2-3ea6-4964-884a-95d061227345
+      username: nacos
+      password: nacos
+  # 配置
+  config:
+    type: nacos
+    nacos:
+      namespace: e11f85d2-3ea6-4964-884a-95d061227345
+      username: nacos
+      password: nacos

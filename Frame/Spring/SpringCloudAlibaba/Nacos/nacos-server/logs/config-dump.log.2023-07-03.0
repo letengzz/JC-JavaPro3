@@ -1,0 +1,14 @@
+2023-07-03 20:02:48,474 INFO [dump-all-ok] borrowservice-dev.yml+DEFAULT_GROUP, 1688048223000, length=341, md5=e14475e546d032161549d5d29ddc1489
+
+2023-07-03 20:02:48,476 INFO [dump-all-ok] borrowservice-prod.yml+DEFAULT_GROUP, 1688048283000, length=351, md5=c4b6edfb4c6ced0ca484e73b0d96f086
+
+2023-07-03 20:02:48,476 INFO [dump-all-ok] bookservice-dev.yml+DEV_GROUP, 1688131101000, length=346, md5=ff47f81738747485d1762831501eaddd
+
+2023-07-03 20:02:48,477 INFO [dump-all-ok] bookservice-dev.yml+TEST_GROUP, 1688130983000, length=357, md5=b251cd6ce4232ec912c3a20c6a9fb9fd
+
+2023-07-03 20:02:48,479 INFO [dump-all-ok] userservice-dev.yml+DEV_GROUP, 1688135047000, length=404, md5=144959043a527d20beb4ed6aeda62989
+
+2023-07-03 20:02:48,480 INFO [dump-all-ok] userservice-prod.yml+PROD_GROUP, 1688135122000, length=407, md5=3b38cac749519f66a962ff6c37b74d4b
+
+2023-07-03 20:02:48,482 INFO [dump-all-ok] userservice-test.yml+TEST_GROUP, 1688135173000, length=409, md5=7bb4c714998fc440ca57017e4eb4e89d
+

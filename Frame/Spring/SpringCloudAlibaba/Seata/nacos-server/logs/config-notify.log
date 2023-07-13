@@ -1,0 +1,26 @@
+2023-03-24 19:28:30,939 ERROR [notify-retry] target:10.10.24.139:8848 dataId:borrowservice-dev.yml group:DEFAULT_GROUP ts:1679657309935
+
+2023-03-24 19:28:32,441 ERROR [notify-retry] target:10.10.24.139:8848 dataId:borrowservice-dev.yml group:DEFAULT_GROUP ts:1679657309935
+
+2023-03-24 19:28:34,944 ERROR [notify-retry] target:10.10.24.139:8848 dataId:borrowservice-dev.yml group:DEFAULT_GROUP ts:1679657309935
+
+2023-03-24 19:28:40,445 ERROR [notify-retry] target:10.10.24.139:8848 dataId:borrowservice-dev.yml group:DEFAULT_GROUP ts:1679657309935
+
+2023-03-24 19:28:50,947 ERROR [notify-retry] target:10.10.24.139:8848 dataId:borrowservice-dev.yml group:DEFAULT_GROUP ts:1679657309935
+
+2023-03-24 19:28:59,072 ERROR [notify-retry] target:10.10.24.139:8848 dataId:borrowservice-dev.yml group:DEFAULT_GROUP ts:1679657338068
+
+2023-03-24 19:29:00,574 ERROR [notify-retry] target:10.10.24.139:8848 dataId:borrowservice-dev.yml group:DEFAULT_GROUP ts:1679657338068
+
+2023-03-24 19:29:03,077 ERROR [notify-retry] target:10.10.24.139:8848 dataId:borrowservice-dev.yml group:DEFAULT_GROUP ts:1679657338068
+
+2023-03-24 19:29:08,578 ERROR [notify-retry] target:10.10.24.139:8848 dataId:borrowservice-dev.yml group:DEFAULT_GROUP ts:1679657309935
+
+2023-03-24 19:29:08,579 ERROR [notify-retry] target:10.10.24.139:8848 dataId:borrowservice-dev.yml group:DEFAULT_GROUP ts:1679657338068
+
+2023-03-24 19:29:19,081 ERROR [notify-retry] target:10.10.24.139:8848 dataId:borrowservice-dev.yml group:DEFAULT_GROUP ts:1679657338068
+
+2023-03-24 19:29:35,087 ERROR [notify-retry] target:10.10.24.139:8848 dataId:borrowservice-dev.yml group:DEFAULT_GROUP ts:1679657309935
+
+2023-03-24 19:29:36,582 ERROR [notify-retry] target:10.10.24.139:8848 dataId:borrowservice-dev.yml group:DEFAULT_GROUP ts:1679657338068
+

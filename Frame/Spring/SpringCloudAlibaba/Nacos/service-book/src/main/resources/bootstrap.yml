@@ -1,0 +1,19 @@
+server:
+  port: 8101
+spring:
+  application:
+    # 服务名称和配置文件保持一致
+    name: bookservice
+  profiles:
+    # 环境也是和配置文件保持一致
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.56.101:80
+      config:
+        # 配置文件后缀名
+        file-extension: yml
+        # 配置中心服务器地址，也就是Nacos地址
+        server-addr: 192.168.56.101:80
+        group: DEV_GROUP

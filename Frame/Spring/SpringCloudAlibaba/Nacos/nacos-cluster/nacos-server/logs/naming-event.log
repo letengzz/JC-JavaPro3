@@ -1,0 +1,56 @@
+2023-07-03 20:13:28,088 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.100.57:8201:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-07-03 20:13:28,090 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.100.57:8201_true,
+
+2023-07-03 20:13:29,586 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.100.57:8202:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-07-03 20:13:29,586 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.100.57:8201_true,192.168.100.57:8202_true,
+
+2023-07-03 20:13:31,782 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.100.57:8203:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-07-03 20:13:31,782 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.100.57:8201_true,192.168.100.57:8202_true,192.168.100.57:8203_true,
+
+2023-07-03 20:16:11,237 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: Beijing, dead ips size: 1, content: [192.168.100.57:8201:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-07-03 20:16:11,237 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.100.57:8202_true,192.168.100.57:8203_true,
+
+2023-07-03 20:16:11,256 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: Shanghai, dead ips size: 1, content: [192.168.100.57:8202:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-07-03 20:16:11,256 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.100.57:8203_true,
+
+2023-07-03 20:16:11,298 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.100.57:8203:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-07-03 20:16:11,298 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 
+
+2023-07-03 20:18:19,527 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.100.57:8201:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-07-03 20:18:19,527 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.100.57:8201_true,
+
+2023-07-03 20:18:21,184 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.100.57:8202:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-07-03 20:18:21,184 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.100.57:8201_true,192.168.100.57:8202_true,
+
+2023-07-03 20:18:23,254 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.100.57:8203:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-07-03 20:18:23,254 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.100.57:8201_true,192.168.100.57:8202_true,192.168.100.57:8203_true,
+
+2023-07-03 22:31:10,192 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: Beijing, dead ips size: 1, content: [192.168.100.57:8201:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-07-03 22:31:10,192 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: Shanghai, dead ips size: 1, content: [192.168.100.57:8202:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-07-03 22:31:10,192 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.100.57:8203:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-07-03 22:31:10,192 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 
+
+2023-07-03 22:31:11,780 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.100.57:8202:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-07-03 22:31:11,780 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.100.57:8202_true,
+
+2023-07-03 22:31:13,429 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.100.57:8203:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-07-03 22:31:13,429 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.100.57:8202_true,192.168.100.57:8203_true,
+
+2023-07-03 22:31:14,929 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.100.57:8201:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-07-03 22:31:14,929 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.100.57:8201_true,192.168.100.57:8202_true,192.168.100.57:8203_true,
+

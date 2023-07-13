@@ -1,0 +1,9 @@
+2023-03-30 15:02:23,220|10.10.25.55|borrowservice|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-03-30 15:02:23,234|10.10.25.55|borrowservice.yml|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-03-30 15:02:23,277|10.10.25.55|borrowservice-dev.yml|DEFAULT_GROUP|null|unknown|1679657338068|pull|ok|502405209|127.0.0.1
+2023-03-30 16:49:49,364|10.10.25.55|borrowservice|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-03-30 16:49:49,381|10.10.25.55|borrowservice.yml|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-03-30 16:49:49,390|10.10.25.55|borrowservice-dev.yml|DEFAULT_GROUP|null|unknown|1679657338068|pull|ok|508851322|127.0.0.1
+2023-03-30 17:01:43,776|10.10.25.55|borrowservice-dev.yml|DEFAULT_GROUP|null|null|1680166903671|10.10.25.55|persist|pub|-1|6f16066f1d1eb4850a7226ad1e821375
+2023-03-30 17:01:43,976|10.10.25.55|borrowservice-dev.yml|DEFAULT_GROUP|null|null|1680166903671|10.10.25.55|notify|ok|298|10.10.25.55:8848
+2023-03-30 17:01:44,033|10.10.25.55|borrowservice-dev.yml|DEFAULT_GROUP|null|null|1680166903671|10.10.25.55|dump|ok|362|761

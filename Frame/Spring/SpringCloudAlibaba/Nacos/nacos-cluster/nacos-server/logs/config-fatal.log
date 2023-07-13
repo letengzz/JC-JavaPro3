@@ -1,0 +1,4 @@
+2023-07-03 20:02:46,732 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2023-07-03 20:02:48,440 WARN isQuickStart:false
+

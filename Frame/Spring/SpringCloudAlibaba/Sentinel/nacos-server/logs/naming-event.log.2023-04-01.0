@@ -1,0 +1,1182 @@
+2023-04-01 14:53:47,514 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 3, content: [198.18.0.1:8301:unknown:Shanghai_1.0_false_false_Shanghai, 10.10.25.54:8301:unknown:Shanghai_1.0_true_false_Shanghai, 10.10.25.55:8301:unknown:Shanghai_1.0_false_false_Shanghai]
+
+2023-04-01 14:53:47,518 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_false,
+
+2023-04-01 14:53:47,810 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_false,
+
+2023-04-01 14:53:47,810 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_false,
+
+2023-04-01 14:53:49,922 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 10.10.25.55:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 14:53:49,922 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 10.10.25.54:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 14:53:51,571 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 10.10.25.54:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 14:53:51,572 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 10.10.25.55:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 14:53:53,193 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 14:53:53,193 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 14:54:11,449 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [198.18.0.1:8101:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-04-01 14:54:11,450 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 198.18.0.1:8101_true,
+
+2023-04-01 14:54:11,457 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [198.18.0.1:8101:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-04-01 14:54:11,457 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [198.18.0.1:8102:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 14:54:11,457 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 198.18.0.1:8101_true,198.18.0.1:8102_true,
+
+2023-04-01 14:54:11,457 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [198.18.0.1:8102:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 14:54:11,457 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 198.18.0.1:8101_true,198.18.0.1:8102_true,
+
+2023-04-01 14:54:11,458 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 198.18.0.1:8101_true,198.18.0.1:8102_true,
+
+2023-04-01 14:54:14,662 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [198.18.0.1:8103:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-04-01 14:54:14,662 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 198.18.0.1:8101_true,198.18.0.1:8102_true,198.18.0.1:8103_true,
+
+2023-04-01 14:54:14,663 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [198.18.0.1:8103:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-04-01 14:54:14,663 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 198.18.0.1:8101_true,198.18.0.1:8102_true,198.18.0.1:8103_true,
+
+2023-04-01 14:54:19,080 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [198.18.0.1:8201:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-04-01 14:54:19,080 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 198.18.0.1:8201_true,
+
+2023-04-01 14:54:23,143 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [198.18.0.1:8202:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 14:54:23,144 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 198.18.0.1:8201_true,198.18.0.1:8202_true,
+
+2023-04-01 14:54:26,526 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [198.18.0.1:8203:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-04-01 14:54:26,526 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 198.18.0.1:8201_true,198.18.0.1:8202_true,198.18.0.1:8203_true,
+
+2023-04-01 14:54:32,694 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 14:54:33,494 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 14:54:33,757 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 14:54:33,757 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 14:54:34,748 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 14:54:35,752 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:00:29,528 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:00:30,998 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 15:00:32,005 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 15:00:33,257 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 15:00:45,258 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:00:45,353 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:00:45,353 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 15:00:45,614 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:00:46,616 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 15:00:47,629 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:11:01,909 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:11:03,068 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 15:11:04,082 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 15:11:05,336 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 15:11:19,729 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:11:19,958 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:11:19,958 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 15:11:20,220 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:11:21,219 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 15:11:22,233 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:12:22,470 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:12:23,263 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 15:12:24,283 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 15:12:25,541 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 15:12:38,738 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:12:38,883 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:12:38,883 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 15:12:39,146 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:12:40,140 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 15:12:41,144 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:13:55,847 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:13:57,267 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 15:13:58,267 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 15:13:59,526 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 15:14:12,294 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:14:12,876 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 15:14:13,136 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:14:13,136 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:14:14,139 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 15:14:15,146 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:15:25,426 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:15:26,167 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 15:15:27,176 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 15:15:28,440 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 15:15:41,246 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:15:41,780 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:15:41,780 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 15:15:42,044 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:15:43,035 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 15:15:44,049 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:17:15,186 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:17:16,153 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 15:17:17,160 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 15:17:18,422 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 15:17:30,866 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:17:31,743 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:17:31,743 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 15:17:32,007 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:17:33,007 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 15:17:34,015 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:23:51,351 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:23:52,845 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 15:23:53,861 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 15:23:55,118 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 15:24:07,046 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:24:07,228 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 15:24:07,479 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:24:07,479 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:24:08,490 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 15:24:09,504 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:42:35,120 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:42:36,183 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 15:42:37,190 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 15:42:38,448 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 15:42:55,754 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:42:56,827 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 15:42:57,087 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:42:57,087 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:42:58,100 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 15:42:59,116 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:44:44,101 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:44:45,485 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 15:44:46,487 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 15:44:47,749 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 15:45:00,232 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:45:01,120 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:45:01,120 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:45:01,120 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 15:45:02,374 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 15:45:03,387 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:53:25,172 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:53:25,421 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:error:Connection reset
+
+2023-04-01 15:53:26,665 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 15:53:28,677 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 15:53:40,985 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:53:41,682 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 15:53:41,944 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:53:41,944 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:53:42,949 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 15:53:43,962 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:55:17,273 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:55:18,259 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 15:55:19,276 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 15:55:20,534 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 15:55:31,500 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 15:55:32,634 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 15:55:32,898 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:55:32,898 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 15:55:33,899 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 15:55:34,914 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:02:50,354 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:02:51,515 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 16:02:52,516 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 16:02:53,774 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 16:03:08,566 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:03:09,646 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 16:03:09,646 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:03:09,910 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:03:10,900 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 16:03:11,914 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:03:43,914 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:03:44,719 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 16:03:45,726 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 16:03:46,978 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 16:04:00,491 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:04:01,571 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 16:04:01,571 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:04:01,833 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:04:02,833 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 16:04:03,841 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:06:21,555 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:06:22,464 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 16:06:23,473 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 16:06:24,727 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 16:06:37,795 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:06:38,081 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 16:06:38,345 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:06:38,345 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:06:39,337 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 16:06:40,348 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:15:37,897 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:15:39,329 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 16:15:40,354 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 16:15:41,614 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 16:15:58,845 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:15:59,997 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 16:16:00,245 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:16:00,245 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:16:02,185 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 16:16:03,231 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:22:08,515 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:22:09,079 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 16:22:10,107 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 16:22:11,351 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 16:22:26,221 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:22:27,211 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 16:22:27,473 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:22:27,473 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:22:28,469 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 16:22:29,485 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:22:54,700 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:22:55,243 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 16:22:56,256 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 16:22:57,520 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 16:23:12,403 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:23:13,365 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 16:23:13,365 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:23:13,630 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:23:14,624 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 16:23:15,638 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:25:04,817 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:25:06,177 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 16:25:07,191 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 16:25:08,449 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 16:25:24,452 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:25:25,560 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 16:25:25,560 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:25:25,822 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:25:26,819 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 16:25:27,828 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:27:11,416 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:27:12,279 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 16:27:13,293 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 16:27:14,551 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 16:27:27,604 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:27:27,920 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:27:27,920 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 16:27:28,183 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:27:29,178 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 16:27:30,188 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:28:03,031 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:28:03,973 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 16:28:04,982 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 16:28:06,239 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 16:28:19,192 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:28:19,554 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 16:28:19,821 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:28:19,821 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:28:20,812 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 16:28:21,825 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:29:38,756 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:29:39,980 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 16:29:40,991 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 16:29:42,239 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 16:29:56,399 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 16:29:56,810 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 16:29:57,072 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:29:57,072 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:29:58,075 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 16:29:59,083 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 16:56:00,050 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 16:56:00,050 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 10.10.25.54:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 16:56:00,050 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 10.10.25.55:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 16:56:01,058 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 10.10.25.54:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 16:56:01,058 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 10.10.25.55:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 16:56:01,058 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 16:56:02,647 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 16:56:02,647 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 16:56:02,647 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 17:19:47,345 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Beijing, dead ips size: 1, content: [198.18.0.1:8101:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-04-01 17:19:47,345 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 198.18.0.1:8102_true,198.18.0.1:8103_true,
+
+2023-04-01 17:19:47,345 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Beijing, dead ips size: 1, content: [198.18.0.1:8101:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-04-01 17:19:47,345 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 198.18.0.1:8102_true,198.18.0.1:8103_true,
+
+2023-04-01 17:19:47,397 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Shanghai, dead ips size: 1, content: [198.18.0.1:8102:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 17:19:47,397 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 198.18.0.1:8103_true,
+
+2023-04-01 17:19:47,397 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Shanghai, dead ips size: 1, content: [198.18.0.1:8102:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 17:19:47,397 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 198.18.0.1:8103_true,
+
+2023-04-01 17:19:47,433 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [198.18.0.1:8103:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-04-01 17:19:47,433 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 
+
+2023-04-01 17:19:47,433 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [198.18.0.1:8103:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-04-01 17:19:47,433 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 
+
+2023-04-01 17:19:47,475 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: Beijing, dead ips size: 1, content: [198.18.0.1:8201:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-04-01 17:19:47,475 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 198.18.0.1:8202_true,198.18.0.1:8203_true,
+
+2023-04-01 17:19:47,481 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: Shanghai, dead ips size: 1, content: [198.18.0.1:8202:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 17:19:47,481 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 198.18.0.1:8203_true,
+
+2023-04-01 17:19:47,525 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [198.18.0.1:8203:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-04-01 17:19:47,525 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 
+
+2023-04-01 17:20:03,003 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.1.57:8103:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-04-01 17:20:03,003 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.57:8103_true,
+
+2023-04-01 17:20:03,003 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.1.57:8103:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-04-01 17:20:03,003 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.57:8103_true,
+
+2023-04-01 17:20:08,145 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.1.57:8201:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-04-01 17:20:08,145 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.1.57:8201_true,
+
+2023-04-01 17:20:12,406 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.1.57:8203:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-04-01 17:20:12,406 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.1.57:8201_true,192.168.1.57:8203_true,
+
+2023-04-01 17:20:16,953 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.1.57:8101:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-04-01 17:20:16,953 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.57:8101_true,192.168.1.57:8103_true,
+
+2023-04-01 17:20:16,953 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.1.57:8101:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-04-01 17:20:16,953 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.57:8101_true,192.168.1.57:8103_true,
+
+2023-04-01 17:20:20,452 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.1.57:8102:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 17:20:20,452 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.57:8101_true,192.168.1.57:8102_true,192.168.1.57:8103_true,
+
+2023-04-01 17:20:20,452 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.1.57:8102:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 17:20:20,452 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.57:8101_true,192.168.1.57:8102_true,192.168.1.57:8103_true,
+
+2023-04-01 17:20:23,067 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.1.57:8202:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 17:20:23,067 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.1.57:8201_true,192.168.1.57:8202_true,192.168.1.57:8203_true,
+
+2023-04-01 17:20:28,312 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Beijing, dead ips size: 1, content: [192.168.1.57:8101:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-04-01 17:20:28,312 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.57:8102_true,192.168.1.57:8103_true,
+
+2023-04-01 17:20:28,312 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Beijing, dead ips size: 1, content: [192.168.1.57:8101:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-04-01 17:20:28,312 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.57:8102_true,192.168.1.57:8103_true,
+
+2023-04-01 17:20:28,347 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Shanghai, dead ips size: 1, content: [192.168.1.57:8102:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 17:20:28,347 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.57:8103_true,
+
+2023-04-01 17:20:28,347 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Shanghai, dead ips size: 1, content: [192.168.1.57:8102:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 17:20:28,347 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.57:8103_true,
+
+2023-04-01 17:20:28,371 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.1.57:8103:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-04-01 17:20:28,371 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 
+
+2023-04-01 17:20:28,371 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.1.57:8103:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-04-01 17:20:28,371 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 
+
+2023-04-01 17:40:54,350 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 3, content: [198.18.0.1:8301:unknown:Shanghai_1.0_true_false_Shanghai, 10.10.25.54:8301:unknown:Shanghai_1.0_true_false_Shanghai, 10.10.25.55:8301:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 17:40:54,354 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 17:40:54,579 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 17:40:54,580 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 17:40:56,972 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 10.10.25.55:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 17:40:56,972 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 17:40:56,972 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 10.10.25.54:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 17:40:58,946 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 17:40:58,946 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 10.10.25.55:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 17:40:58,947 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 10.10.25.54:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 17:41:02,919 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 17:41:02,919 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 17:41:02,919 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 17:41:33,618 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 3, content: [198.18.0.1:8301:unknown:Shanghai_1.0_true_false_Shanghai, 10.10.25.54:8301:unknown:Shanghai_1.0_true_false_Shanghai, 10.10.25.55:8301:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 17:41:33,621 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 17:41:33,809 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 17:41:33,809 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,
+
+2023-04-01 17:41:36,870 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 17:41:36,870 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 10.10.25.55:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 17:41:36,870 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 10.10.25.54:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 17:41:39,613 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 10.10.25.55:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 17:41:39,613 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 10.10.25.54:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 17:41:39,613 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 17:41:44,174 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 17:41:44,175 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 17:41:44,175 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 17:42:30,298 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.1.57:8101:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-04-01 17:42:30,299 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.57:8101_true,
+
+2023-04-01 17:42:34,583 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.1.57:8203:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-04-01 17:42:34,583 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.1.57:8203_true,
+
+2023-04-01 17:42:40,602 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.1.57:8301:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 17:42:40,603 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,
+
+2023-04-01 17:42:43,543 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.1.57:8102:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 17:42:43,543 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.57:8101_true,192.168.1.57:8102_true,
+
+2023-04-01 17:42:43,775 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 17:42:47,199 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.1.57:8103:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-04-01 17:42:47,199 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.57:8101_true,192.168.1.57:8102_true,192.168.1.57:8103_true,
+
+2023-04-01 17:42:48,779 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 17:42:50,396 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.1.57:8201:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-04-01 17:42:50,396 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.1.57:8201_true,192.168.1.57:8203_true,
+
+2023-04-01 17:42:52,584 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.1.57:8202:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 17:42:52,584 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.1.57:8201_true,192.168.1.57:8202_true,192.168.1.57:8203_true,
+
+2023-04-01 17:42:53,780 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 17:47:47,127 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,
+
+2023-04-01 17:47:49,491 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 17:47:54,195 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 17:47:59,189 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 17:48:02,089 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,
+
+2023-04-01 17:48:03,694 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 17:48:08,697 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 17:48:13,399 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 17:50:38,581 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,
+
+2023-04-01 17:50:41,800 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 17:50:46,809 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 17:50:51,813 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 17:50:53,383 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,
+
+2023-04-01 17:50:56,311 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 17:51:01,321 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 17:51:06,322 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 18:04:20,460 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,
+
+2023-04-01 18:04:21,294 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 18:04:26,294 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 18:04:31,295 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 18:04:37,855 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,
+
+2023-04-01 18:04:40,797 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 18:04:45,797 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 18:04:50,799 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 18:09:58,283 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,
+
+2023-04-01 18:10:01,349 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 18:10:06,349 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 18:10:11,349 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 18:10:12,400 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,
+
+2023-04-01 18:10:15,850 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 18:10:20,851 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 18:10:25,854 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 18:16:36,748 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,
+
+2023-04-01 18:16:39,773 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 18:16:44,792 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 18:16:49,812 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 18:16:54,140 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,
+
+2023-04-01 18:16:54,312 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 18:16:59,322 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 18:17:04,332 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 18:21:11,890 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,
+
+2023-04-01 18:21:14,285 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 18:21:19,292 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 18:21:24,297 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 18:21:26,663 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,
+
+2023-04-01 18:21:28,799 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 18:21:33,800 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 18:21:38,804 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 18:23:32,030 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:error:Connection reset
+
+2023-04-01 18:23:33,978 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:error:No route to host: no further information
+
+2023-04-01 18:23:38,826 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 18:24:07,533 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,
+
+2023-04-01 18:24:18,135 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.100.57:8301:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 18:24:18,135 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_true,
+
+2023-04-01 18:24:18,193 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.100.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 18:24:23,196 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.100.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 18:24:28,205 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.100.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 19:00:19,640 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_true,
+
+2023-04-01 19:00:22,292 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.100.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 19:00:27,292 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.100.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 19:00:31,357 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_true,
+
+2023-04-01 19:00:31,800 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.100.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 19:00:36,814 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.100.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 19:00:41,830 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.100.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 19:03:15,052 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_true,
+
+2023-04-01 19:03:17,556 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.100.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 19:03:22,564 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.100.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 19:03:27,585 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.100.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 19:03:28,807 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 19:03:32,082 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.100.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 19:03:37,097 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.100.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 19:03:42,101 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.100.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 19:04:04,464 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_true,
+
+2023-04-01 19:04:07,630 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.100.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 19:04:12,653 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.100.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 19:04:17,651 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.100.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 19:04:18,039 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 19:04:22,159 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.100.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 19:04:27,170 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.100.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 19:04:32,178 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.100.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 19:06:43,867 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_true,
+
+2023-04-01 19:06:47,881 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.100.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 19:06:52,886 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.100.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 19:06:57,893 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.100.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 19:06:58,599 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 19:07:02,384 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.100.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 19:07:07,398 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.100.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 19:07:12,408 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.100.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 21:34:38,114 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_true,
+
+2023-04-01 21:34:41,627 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.100.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 21:34:46,640 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.100.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 21:34:51,643 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.100.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 21:34:54,641 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 21:34:56,145 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.100.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 21:35:01,161 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.100.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 21:35:06,167 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.100.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 21:43:35,829 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.100.57:8301@Shanghai in 1, msg: tcp:error:Connection reset
+
+2023-04-01 21:43:38,919 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 21:43:39,424 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.100.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 21:43:42,750 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 21:43:43,254 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.100.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 21:43:47,764 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 21:46:43,464 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 21:46:48,539 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 21:46:53,552 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 21:46:58,551 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 21:46:58,972 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 21:47:03,051 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 21:47:08,065 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 21:47:13,075 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 22:05:32,929 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 22:05:35,281 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 22:05:40,268 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 22:05:45,287 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 22:05:47,544 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 22:05:49,775 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 22:05:54,790 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 22:05:59,795 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 22:25:36,402 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 22:25:37,303 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 22:25:42,320 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 22:25:47,330 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 22:25:51,075 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 22:25:51,843 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 22:25:56,853 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 22:26:01,853 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 22:29:29,267 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 22:29:32,715 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 22:29:37,732 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 22:29:42,735 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 22:29:42,989 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 22:29:47,245 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 22:29:52,248 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 22:29:57,260 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:06:34,571 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 23:06:36,196 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 23:06:41,186 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 23:06:46,191 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 23:06:47,541 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 23:06:50,701 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 23:06:55,711 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 23:07:00,719 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:07:56,505 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 23:08:01,294 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 23:08:06,316 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 23:08:11,318 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 23:08:11,420 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 23:08:15,824 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 23:08:20,829 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 23:08:25,840 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:31:45,594 INFO {POS} {IP-DISABLED} valid: 192.168.1.57:8201@Beijing@DEFAULT_GROUP@@userservice, region: unknown, msg: client timeout after 15000, last beat: 1680362477207
+
+2023-04-01 23:31:45,594 INFO {POS} {IP-DISABLED} valid: 192.168.1.57:8101@Beijing@DEFAULT_GROUP@@bookservice, region: unknown, msg: client timeout after 15000, last beat: 1680362476898
+
+2023-04-01 23:31:45,883 INFO {POS} {IP-DISABLED} valid: 192.168.1.57:8202@Shanghai@DEFAULT_GROUP@@userservice, region: unknown, msg: client timeout after 15000, last beat: 1680362478172
+
+2023-04-01 23:31:45,883 INFO {POS} {IP-DISABLED} valid: 192.168.1.57:8203@Guangzhou@DEFAULT_GROUP@@userservice, region: unknown, msg: client timeout after 15000, last beat: 1680362477078
+
+2023-04-01 23:31:45,883 INFO {POS} {IP-DISABLED} valid: 192.168.1.57:8102@Shanghai@DEFAULT_GROUP@@bookservice, region: unknown, msg: client timeout after 15000, last beat: 1680362477445
+
+2023-04-01 23:31:45,883 INFO {POS} {IP-DISABLED} valid: 192.168.1.57:8103@Guangzhou@DEFAULT_GROUP@@bookservice, region: unknown, msg: client timeout after 15000, last beat: 1680362479435
+
+2023-04-01 23:31:45,962 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: Beijing, dead ips size: 1, content: [192.168.1.57:8201:unknown:Beijing_1.0_false_false_Beijing]
+
+2023-04-01 23:31:45,963 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.1.57:8202_false,192.168.1.57:8203_false,
+
+2023-04-01 23:31:45,963 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.1.57:8203:unknown:Guangzhou_1.0_false_false_Guangzhou]
+
+2023-04-01 23:31:45,963 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.1.57:8202_false,
+
+2023-04-01 23:31:45,964 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Beijing, dead ips size: 1, content: [192.168.1.57:8101:unknown:Beijing_1.0_false_false_Beijing]
+
+2023-04-01 23:31:45,964 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.57:8102_false,192.168.1.57:8103_false,
+
+2023-04-01 23:31:45,964 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: Shanghai, dead ips size: 1, content: [192.168.1.57:8202:unknown:Shanghai_1.0_false_false_Shanghai]
+
+2023-04-01 23:31:45,964 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 
+
+2023-04-01 23:31:45,965 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Shanghai, dead ips size: 1, content: [192.168.1.57:8102:unknown:Shanghai_1.0_false_false_Shanghai]
+
+2023-04-01 23:31:45,965 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.1.57:8103:unknown:Guangzhou_1.0_false_false_Guangzhou]
+
+2023-04-01 23:31:45,965 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 
+
+2023-04-01 23:31:47,223 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.1.57:8101:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-04-01 23:31:47,224 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.57:8101_true,
+
+2023-04-01 23:31:47,404 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.1.57:8203:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-04-01 23:31:47,404 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.1.57:8203_true,
+
+2023-04-01 23:31:47,530 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.1.57:8201:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-04-01 23:31:47,530 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.1.57:8201_true,192.168.1.57:8203_true,
+
+2023-04-01 23:31:47,770 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.1.57:8102:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 23:31:47,770 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.57:8101_true,192.168.1.57:8102_true,
+
+2023-04-01 23:31:48,495 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.1.57:8202:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 23:31:48,495 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.1.57:8201_true,192.168.1.57:8202_true,192.168.1.57:8203_true,
+
+2023-04-01 23:31:49,760 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.1.57:8103:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-04-01 23:31:49,760 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.1.57:8101_true,192.168.1.57:8102_true,192.168.1.57:8103_true,
+
+2023-04-01 23:36:23,484 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 23:36:26,543 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 23:36:31,556 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 23:36:36,567 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 23:36:43,626 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_false,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 23:36:46,065 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 23:36:51,077 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 23:36:56,085 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:47:30,155 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:error:Connection reset
+
+2023-04-01 23:47:32,610 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 23:49:00,175 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 5, content: [198.18.0.1:8301:unknown:Shanghai_1.0_false_false_Shanghai, 10.10.25.54:8301:unknown:Shanghai_1.0_false_false_Shanghai, 10.10.25.55:8301:unknown:Shanghai_1.0_false_false_Shanghai, 192.168.1.57:8301:unknown:Shanghai_1.0_true_false_Shanghai, 192.168.100.57:8301:unknown:Shanghai_1.0_false_false_Shanghai]
+
+2023-04-01 23:49:00,181 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_false,10.10.25.55:8301_false,192.168.100.57:8301_false,
+
+2023-04-01 23:49:03,650 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 23:49:03,914 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 10.10.25.55:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 23:49:03,914 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.100.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 23:49:03,914 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 10.10.25.54:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 23:49:07,111 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 10.10.25.54:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 23:49:07,112 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 23:49:07,376 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.100.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 23:49:07,376 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 10.10.25.55:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 23:49:09,365 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:49:09,365 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:49:09,365 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:49:09,365 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.100.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:49:19,881 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [198.18.0.1:8101:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-04-01 23:49:19,882 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 198.18.0.1:8101_true,
+
+2023-04-01 23:49:20,166 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [198.18.0.1:8102:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 23:49:20,166 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 198.18.0.1:8101_true,198.18.0.1:8102_true,
+
+2023-04-01 23:49:22,278 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [198.18.0.1:8103:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-04-01 23:49:22,278 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 198.18.0.1:8101_true,198.18.0.1:8102_true,198.18.0.1:8103_true,
+
+2023-04-01 23:49:26,245 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [198.18.0.1:8201:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-04-01 23:49:26,245 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 198.18.0.1:8201_true,
+
+2023-04-01 23:49:30,019 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [198.18.0.1:8202:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-04-01 23:49:30,019 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 198.18.0.1:8201_true,198.18.0.1:8202_true,
+
+2023-04-01 23:49:33,157 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [198.18.0.1:8203:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-04-01 23:49:33,157 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 198.18.0.1:8201_true,198.18.0.1:8202_true,198.18.0.1:8203_true,
+
+2023-04-01 23:49:37,351 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,192.168.100.57:8301_true,
+
+2023-04-01 23:49:38,031 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 23:49:38,032 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:49:38,294 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:49:38,294 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:49:38,294 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.100.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:49:39,288 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 23:49:40,292 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:52:45,887 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,192.168.100.57:8301_true,
+
+2023-04-01 23:52:46,291 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 23:52:47,286 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 23:52:48,536 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 23:52:59,578 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,192.168.100.57:8301_true,
+
+2023-04-01 23:53:00,610 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 23:53:00,860 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.100.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:53:00,860 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:53:00,860 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:53:00,860 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:53:01,874 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 23:53:02,884 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:57:30,240 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_true,10.10.25.54:8301_true,10.10.25.55:8301_true,192.168.100.57:8301_true,
+
+2023-04-01 23:57:30,629 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:timeout
+
+2023-04-01 23:57:31,643 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-DISABLED} pre-invalid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:timeout
+
+2023-04-01 23:57:32,893 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-DISABLED} invalid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:timeout
+
+2023-04-01 23:57:43,342 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.1.57:8301_true,198.18.0.1:8301_false,10.10.25.54:8301_true,10.10.25.55:8301_true,192.168.100.57:8301_true,
+
+2023-04-01 23:57:43,722 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-04-01 23:57:43,972 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.54:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:57:43,972 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:57:43,972 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:57:43,972 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.100.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-04-01 23:57:44,984 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 198.18.0.1:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-04-01 23:57:45,993 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 198.18.0.1:8301@Shanghai, region: unknown, msg: tcp:ok+
+

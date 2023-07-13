@@ -1,0 +1,12 @@
+2023-03-31 16:02:54,919 INFO [dump-all-ok] borrowservice-dev.yml+DEFAULT_GROUP, 1680166903671, length=761, md5=6f16066f1d1eb4850a7226ad1e821375
+
+2023-03-31 16:21:29,295 WARN [dump-ignore] ignore to save cache file. groupKey=borrowservice-dev.yml+DEFAULT_GROUP, md5=a8956bf18cd72348f215c3e2c56bf665, lastModifiedOld=1680250639722, lastModifiedNew=1680250889200
+
+2023-03-31 16:23:03,489 WARN [dump-ignore] ignore to save cache file. groupKey=borrowservice-dev.yml+DEFAULT_GROUP, md5=a8956bf18cd72348f215c3e2c56bf665, lastModifiedOld=1680250639722, lastModifiedNew=1680250983481
+
+2023-03-31 16:24:57,882 INFO [dump-all-ok] borrowservice-dev.yml+DEFAULT_GROUP, 1680251008635, length=846, md5=377a023a4ab96b1201d61aa94bfc92e4
+
+2023-03-31 16:27:39,189 WARN [dump-ignore] ignore to save cache file. groupKey=borrowservice-dev.yml+DEFAULT_GROUP, md5=a27803de26a1abd4290cb4f4cd499537, lastModifiedOld=1680251210365, lastModifiedNew=1680251259098
+
+2023-03-31 19:26:22,666 WARN [dump-ignore] ignore to save cache file. groupKey=borrowservice-dev.yml+DEFAULT_GROUP, md5=9309d7a054a896297f71f33d1c645cc9, lastModifiedOld=1680261889626, lastModifiedNew=1680261982624
+

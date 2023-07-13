@@ -1,0 +1,728 @@
+2023-07-10 10:27:03,089 INFO Starting Nacos v1.4.1 on 我的电脑 with PID 10832 (D:\Develop\JC-JavaPro\SpringCloudAlibaba\Seata\nacos-server\target\nacos-server.jar started by 20208 in D:\Develop\JC-JavaPro\SpringCloudAlibaba\Seata)
+
+2023-07-10 10:27:03,090 INFO The following profiles are active: standalone
+
+2023-07-10 10:27:07,580 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6676f6a0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-07-10 10:27:07,586 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-07-10 10:27:08,459 INFO Tomcat initialized with port(s): 8848 (http)
+
+2023-07-10 10:27:08,498 INFO Starting service [Tomcat]
+
+2023-07-10 10:27:08,499 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2023-07-10 10:27:08,907 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2023-07-10 10:27:08,957 INFO Initializing Spring embedded WebApplicationContext
+
+2023-07-10 10:27:08,958 INFO Root WebApplicationContext: initialization completed in 5760 ms
+
+2023-07-10 10:27:09,618 INFO HikariPool-1 - Starting...
+
+2023-07-10 10:27:09,621 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+
+2023-07-10 10:27:09,998 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+
+2023-07-10 10:27:10,004 INFO HikariPool-1 - Start completed.
+
+2023-07-10 10:27:11,341 INFO Nacos-related cluster resource initialization
+
+2023-07-10 10:27:11,353 INFO The cluster resource is initialized
+
+2023-07-10 10:27:11,890 INFO Reflections took 47 ms to scan 1 urls, producing 4 keys and 6 values 
+
+2023-07-10 10:27:11,919 INFO Reflections took 4 ms to scan 1 urls, producing 6 keys and 26 values 
+
+2023-07-10 10:27:11,934 INFO Reflections took 5 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2023-07-10 10:27:11,943 INFO Reflections took 2 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2023-07-10 10:27:12,917 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2023-07-10 10:27:13,035 INFO Adding welcome page: class path resource [static/index.html]
+
+2023-07-10 10:27:13,489 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2023-07-10 10:27:13,522 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3aacf32a, org.springframework.security.web.context.SecurityContextPersistenceFilter@48e64352, org.springframework.security.web.header.HeaderWriterFilter@285f09de, org.springframework.security.web.csrf.CsrfFilter@344344fa, org.springframework.security.web.authentication.logout.LogoutFilter@7957dc72, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24f43aa3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7544a1e4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4fdfa676, org.springframework.security.web.session.SessionManagementFilter@31500940, org.springframework.security.web.access.ExceptionTranslationFilter@70e659aa]
+
+2023-07-10 10:27:13,656 INFO Initializing ExecutorService 'taskScheduler'
+
+2023-07-10 10:27:13,674 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2023-07-10 10:27:13,773 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2023-07-10 10:27:13,776 INFO Started Nacos in 12.553 seconds (JVM running for 13.297)
+
+2023-07-10 10:27:13,777 INFO Nacos started successfully in stand alone mode. use embedded storage
+
+2023-07-10 10:27:37,950 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2023-07-10 10:27:37,950 INFO Initializing Servlet 'dispatcherServlet'
+
+2023-07-10 10:27:37,962 INFO Completed initialization in 11 ms
+
+2023-07-10 10:37:12,195 INFO [capacityManagement] start correct usage
+
+2023-07-10 10:37:12,208 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 10:37:12,551 WARN clearConfigHistory start
+
+2023-07-10 10:37:12,557 WARN clearConfigHistory, getBeforeStamp:2023-06-10 10:37:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 10:47:12,218 INFO [capacityManagement] start correct usage
+
+2023-07-10 10:47:12,218 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 10:47:12,620 WARN clearConfigHistory start
+
+2023-07-10 10:47:12,621 WARN clearConfigHistory, getBeforeStamp:2023-06-10 10:47:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 10:54:46,569 ERROR CONSOLE
+
+com.alibaba.nacos.api.exception.NacosException: content is blank : 
+	at com.alibaba.nacos.config.server.utils.ParamUtils.checkParam(ParamUtils.java:75)
+	at com.alibaba.nacos.config.server.controller.ConfigController.publishConfig(ConfigController.java:144)
+	at com.alibaba.nacos.config.server.controller.ConfigController$$FastClassBySpringCGLIB$$dbb89c38.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.alibaba.nacos.config.server.aspect.RequestLogAspect.logClientRequest(RequestLogAspect.java:105)
+	at com.alibaba.nacos.config.server.aspect.RequestLogAspect.interfacePublishSingle(RequestLogAspect.java:73)
+	at sun.reflect.GeneratedMethodAccessor161.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.alibaba.nacos.config.server.controller.ConfigController$$EnhancerBySpringCGLIB$$edbcfda0.publishConfig(<generated>)
+	at sun.reflect.GeneratedMethodAccessor160.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.nacos.core.auth.AuthFilter.doFilter(AuthFilter.java:69)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.nacos.config.server.filter.NacosWebFilter.doFilter(NacosWebFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:209)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2023-07-10 10:55:25,404 ERROR CONSOLE
+
+com.alibaba.nacos.api.exception.NacosException: content is blank : 
+	at com.alibaba.nacos.config.server.utils.ParamUtils.checkParam(ParamUtils.java:75)
+	at com.alibaba.nacos.config.server.controller.ConfigController.publishConfig(ConfigController.java:144)
+	at com.alibaba.nacos.config.server.controller.ConfigController$$FastClassBySpringCGLIB$$dbb89c38.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.alibaba.nacos.config.server.aspect.RequestLogAspect.logClientRequest(RequestLogAspect.java:105)
+	at com.alibaba.nacos.config.server.aspect.RequestLogAspect.interfacePublishSingle(RequestLogAspect.java:73)
+	at sun.reflect.GeneratedMethodAccessor161.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.alibaba.nacos.config.server.controller.ConfigController$$EnhancerBySpringCGLIB$$edbcfda0.publishConfig(<generated>)
+	at sun.reflect.GeneratedMethodAccessor160.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.nacos.core.auth.AuthFilter.doFilter(AuthFilter.java:69)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.nacos.config.server.filter.NacosWebFilter.doFilter(NacosWebFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:209)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2023-07-10 10:55:27,169 ERROR CONSOLE
+
+com.alibaba.nacos.api.exception.NacosException: content is blank : 
+	at com.alibaba.nacos.config.server.utils.ParamUtils.checkParam(ParamUtils.java:75)
+	at com.alibaba.nacos.config.server.controller.ConfigController.publishConfig(ConfigController.java:144)
+	at com.alibaba.nacos.config.server.controller.ConfigController$$FastClassBySpringCGLIB$$dbb89c38.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.alibaba.nacos.config.server.aspect.RequestLogAspect.logClientRequest(RequestLogAspect.java:105)
+	at com.alibaba.nacos.config.server.aspect.RequestLogAspect.interfacePublishSingle(RequestLogAspect.java:73)
+	at sun.reflect.GeneratedMethodAccessor161.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.alibaba.nacos.config.server.controller.ConfigController$$EnhancerBySpringCGLIB$$edbcfda0.publishConfig(<generated>)
+	at sun.reflect.GeneratedMethodAccessor160.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.nacos.core.auth.AuthFilter.doFilter(AuthFilter.java:69)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.nacos.config.server.filter.NacosWebFilter.doFilter(NacosWebFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:209)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2023-07-10 10:55:33,266 ERROR CONSOLE
+
+com.alibaba.nacos.api.exception.NacosException: content is blank : 
+	at com.alibaba.nacos.config.server.utils.ParamUtils.checkParam(ParamUtils.java:75)
+	at com.alibaba.nacos.config.server.controller.ConfigController.publishConfig(ConfigController.java:144)
+	at com.alibaba.nacos.config.server.controller.ConfigController$$FastClassBySpringCGLIB$$dbb89c38.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.alibaba.nacos.config.server.aspect.RequestLogAspect.logClientRequest(RequestLogAspect.java:105)
+	at com.alibaba.nacos.config.server.aspect.RequestLogAspect.interfacePublishSingle(RequestLogAspect.java:73)
+	at sun.reflect.GeneratedMethodAccessor161.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.alibaba.nacos.config.server.controller.ConfigController$$EnhancerBySpringCGLIB$$edbcfda0.publishConfig(<generated>)
+	at sun.reflect.GeneratedMethodAccessor160.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.nacos.core.auth.AuthFilter.doFilter(AuthFilter.java:69)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.nacos.config.server.filter.NacosWebFilter.doFilter(NacosWebFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:209)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2023-07-10 10:57:12,230 INFO [capacityManagement] start correct usage
+
+2023-07-10 10:57:12,230 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 10:57:12,629 WARN clearConfigHistory start
+
+2023-07-10 10:57:12,630 WARN clearConfigHistory, getBeforeStamp:2023-06-10 10:57:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 11:07:12,241 INFO [capacityManagement] start correct usage
+
+2023-07-10 11:07:12,241 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 11:07:12,645 WARN clearConfigHistory start
+
+2023-07-10 11:07:12,645 WARN clearConfigHistory, getBeforeStamp:2023-06-10 11:07:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 11:17:12,256 INFO [capacityManagement] start correct usage
+
+2023-07-10 11:17:12,256 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 11:17:12,657 WARN clearConfigHistory start
+
+2023-07-10 11:17:12,657 WARN clearConfigHistory, getBeforeStamp:2023-06-10 11:17:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 11:27:12,270 INFO [capacityManagement] start correct usage
+
+2023-07-10 11:27:12,270 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 11:27:12,671 WARN clearConfigHistory start
+
+2023-07-10 11:27:12,671 WARN clearConfigHistory, getBeforeStamp:2023-06-10 11:27:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 11:37:12,273 INFO [capacityManagement] start correct usage
+
+2023-07-10 11:37:12,273 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 11:37:12,673 WARN clearConfigHistory start
+
+2023-07-10 11:37:12,673 WARN clearConfigHistory, getBeforeStamp:2023-06-10 11:37:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 11:47:12,277 INFO [capacityManagement] start correct usage
+
+2023-07-10 11:47:12,278 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 11:47:12,682 WARN clearConfigHistory start
+
+2023-07-10 11:47:12,683 WARN clearConfigHistory, getBeforeStamp:2023-06-10 11:47:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 11:57:12,293 INFO [capacityManagement] start correct usage
+
+2023-07-10 11:57:12,293 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 11:57:12,699 WARN clearConfigHistory start
+
+2023-07-10 11:57:12,699 WARN clearConfigHistory, getBeforeStamp:2023-06-10 11:57:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 12:07:12,304 INFO [capacityManagement] start correct usage
+
+2023-07-10 12:07:12,304 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 12:07:12,713 WARN clearConfigHistory start
+
+2023-07-10 12:07:12,714 WARN clearConfigHistory, getBeforeStamp:2023-06-10 12:07:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 12:17:12,318 INFO [capacityManagement] start correct usage
+
+2023-07-10 12:17:12,318 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 12:17:12,725 WARN clearConfigHistory start
+
+2023-07-10 12:17:12,726 WARN clearConfigHistory, getBeforeStamp:2023-06-10 12:17:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 12:27:12,328 INFO [capacityManagement] start correct usage
+
+2023-07-10 12:27:12,329 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 12:27:12,740 WARN clearConfigHistory start
+
+2023-07-10 12:27:12,740 WARN clearConfigHistory, getBeforeStamp:2023-06-10 12:27:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 12:37:12,333 INFO [capacityManagement] start correct usage
+
+2023-07-10 12:37:12,333 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 12:37:12,754 WARN clearConfigHistory start
+
+2023-07-10 12:37:12,754 WARN clearConfigHistory, getBeforeStamp:2023-06-10 12:37:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 12:47:12,338 INFO [capacityManagement] start correct usage
+
+2023-07-10 12:47:12,338 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 12:47:12,769 WARN clearConfigHistory start
+
+2023-07-10 12:47:12,769 WARN clearConfigHistory, getBeforeStamp:2023-06-10 12:47:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 12:57:12,352 INFO [capacityManagement] start correct usage
+
+2023-07-10 12:57:12,352 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 12:57:12,786 WARN clearConfigHistory start
+
+2023-07-10 12:57:12,786 WARN clearConfigHistory, getBeforeStamp:2023-06-10 12:57:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 13:07:12,365 INFO [capacityManagement] start correct usage
+
+2023-07-10 13:07:12,366 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 13:07:12,791 WARN clearConfigHistory start
+
+2023-07-10 13:07:12,792 WARN clearConfigHistory, getBeforeStamp:2023-06-10 13:07:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 13:17:12,377 INFO [capacityManagement] start correct usage
+
+2023-07-10 13:17:12,377 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 13:17:12,795 WARN clearConfigHistory start
+
+2023-07-10 13:17:12,795 WARN clearConfigHistory, getBeforeStamp:2023-06-10 13:17:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 13:27:12,377 INFO [capacityManagement] start correct usage
+
+2023-07-10 13:27:12,377 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 13:27:12,799 WARN clearConfigHistory start
+
+2023-07-10 13:27:12,799 WARN clearConfigHistory, getBeforeStamp:2023-06-10 13:27:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 13:37:12,390 INFO [capacityManagement] start correct usage
+
+2023-07-10 13:37:12,390 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 13:37:12,808 WARN clearConfigHistory start
+
+2023-07-10 13:37:12,808 WARN clearConfigHistory, getBeforeStamp:2023-06-10 13:37:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 13:47:12,391 INFO [capacityManagement] start correct usage
+
+2023-07-10 13:47:12,391 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 13:47:12,812 WARN clearConfigHistory start
+
+2023-07-10 13:47:12,812 WARN clearConfigHistory, getBeforeStamp:2023-06-10 13:47:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 13:57:12,401 INFO [capacityManagement] start correct usage
+
+2023-07-10 13:57:12,401 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 13:57:12,826 WARN clearConfigHistory start
+
+2023-07-10 13:57:12,826 WARN clearConfigHistory, getBeforeStamp:2023-06-10 13:57:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 14:07:12,413 INFO [capacityManagement] start correct usage
+
+2023-07-10 14:07:12,413 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 14:07:12,829 WARN clearConfigHistory start
+
+2023-07-10 14:07:12,829 WARN clearConfigHistory, getBeforeStamp:2023-06-10 14:07:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 14:17:12,427 INFO [capacityManagement] start correct usage
+
+2023-07-10 14:17:12,427 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 14:17:12,831 WARN clearConfigHistory start
+
+2023-07-10 14:17:12,832 WARN clearConfigHistory, getBeforeStamp:2023-06-10 14:17:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 14:27:12,435 INFO [capacityManagement] start correct usage
+
+2023-07-10 14:27:12,435 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 14:27:12,838 WARN clearConfigHistory start
+
+2023-07-10 14:27:12,838 WARN clearConfigHistory, getBeforeStamp:2023-06-10 14:27:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 14:37:12,447 INFO [capacityManagement] start correct usage
+
+2023-07-10 14:37:12,447 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 14:37:12,844 WARN clearConfigHistory start
+
+2023-07-10 14:37:12,844 WARN clearConfigHistory, getBeforeStamp:2023-06-10 14:37:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 14:47:12,449 INFO [capacityManagement] start correct usage
+
+2023-07-10 14:47:12,450 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 14:47:12,853 WARN clearConfigHistory start
+
+2023-07-10 14:47:12,854 WARN clearConfigHistory, getBeforeStamp:2023-06-10 14:47:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 14:57:12,454 INFO [capacityManagement] start correct usage
+
+2023-07-10 14:57:12,455 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 14:57:12,857 WARN clearConfigHistory start
+
+2023-07-10 14:57:12,857 WARN clearConfigHistory, getBeforeStamp:2023-06-10 14:57:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 15:07:12,458 INFO [capacityManagement] start correct usage
+
+2023-07-10 15:07:12,458 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 15:07:12,865 WARN clearConfigHistory start
+
+2023-07-10 15:07:12,866 WARN clearConfigHistory, getBeforeStamp:2023-06-10 15:07:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 15:17:12,462 INFO [capacityManagement] start correct usage
+
+2023-07-10 15:17:12,462 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 15:17:12,879 WARN clearConfigHistory start
+
+2023-07-10 15:17:12,879 WARN clearConfigHistory, getBeforeStamp:2023-06-10 15:17:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 15:27:12,477 INFO [capacityManagement] start correct usage
+
+2023-07-10 15:27:12,477 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 15:27:12,890 WARN clearConfigHistory start
+
+2023-07-10 15:27:12,890 WARN clearConfigHistory, getBeforeStamp:2023-06-10 15:27:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 15:37:12,483 INFO [capacityManagement] start correct usage
+
+2023-07-10 15:37:12,484 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 15:37:12,896 WARN clearConfigHistory start
+
+2023-07-10 15:37:12,896 WARN clearConfigHistory, getBeforeStamp:2023-06-10 15:37:12.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-07-10 15:47:12,484 INFO [capacityManagement] start correct usage
+
+2023-07-10 15:47:12,484 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-10 15:47:12,901 WARN clearConfigHistory start
+
+2023-07-10 15:47:12,901 WARN clearConfigHistory, getBeforeStamp:2023-06-10 15:47:12.0, totalCount:9, pageSize:1000, removeTime:1
+

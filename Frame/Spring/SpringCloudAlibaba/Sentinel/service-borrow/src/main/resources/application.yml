@@ -1,0 +1,36 @@
+server:
+  port: 8301
+spring:
+  application:
+    name: borrowservice
+  datasource:
+    url: jdbc:mysql://localhost:3306/springcloud?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123123
+  # 解决多个同名Feign的报错问题
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        # 将ephemeral修改为false，表示非临时实例
+        ephemeral: false
+        # 修改为北京地区的集群
+        cluster-name: Shanghai
+    sentinel:
+      transport:
+        # 添加监控页面地址即可
+        dashboard: localhost:8858
+      # 关闭Context收敛，这样被监控方法可以进行不同链路的单独控制
+      web-context-unify: false
+      # 将刚刚编写的请求映射设定为限流页面
+#      block-page: /blocked
+feign:
+  sentinel:
+    enabled: true
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

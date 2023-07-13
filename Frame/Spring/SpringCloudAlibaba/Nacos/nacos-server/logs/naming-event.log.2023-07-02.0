@@ -1,0 +1,72 @@
+2023-07-02 22:16:40,627 INFO {POS} {IP-DISABLED} valid: 192.168.100.57:8201@Beijing@DEFAULT_GROUP@@userservice, region: unknown, msg: client timeout after 15000, last beat: 1688138612134
+
+2023-07-02 22:16:40,627 INFO {POS} {IP-DISABLED} valid: 192.168.100.57:8101@Beijing@DEFAULT_GROUP@@bookservice, region: unknown, msg: client timeout after 15000, last beat: 1688138609726
+
+2023-07-02 22:16:40,627 INFO {POS} {IP-DISABLED} valid: 192.168.100.57:8301@DEFAULT@DEFAULT_GROUP@@borrowservice, region: unknown, msg: client timeout after 15000, last beat: 1688138609232
+
+2023-07-02 22:16:40,627 INFO {POS} {IP-DISABLED} valid: 192.168.100.57:8102@Shanghai@DEFAULT_GROUP@@bookservice, region: unknown, msg: client timeout after 15000, last beat: 1688138612963
+
+2023-07-02 22:16:40,627 INFO {POS} {IP-DISABLED} valid: 192.168.100.57:8103@Guangzhou@DEFAULT_GROUP@@bookservice, region: unknown, msg: client timeout after 15000, last beat: 1688138609957
+
+2023-07-02 22:16:40,627 INFO {POS} {IP-DISABLED} valid: 192.168.100.57:8202@Shanghai@DEFAULT_GROUP@@userservice, region: unknown, msg: client timeout after 15000, last beat: 1688138611645
+
+2023-07-02 22:16:40,627 INFO {POS} {IP-DISABLED} valid: 192.168.100.57:8203@Guangzhou@DEFAULT_GROUP@@userservice, region: unknown, msg: client timeout after 15000, last beat: 1688138612370
+
+2023-07-02 22:16:40,635 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: Beijing, dead ips size: 1, content: [192.168.100.57:8201:unknown:Beijing_1.0_false_false_Beijing]
+
+2023-07-02 22:16:40,635 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.100.57:8202_false,192.168.100.57:8203_false,
+
+2023-07-02 22:16:40,635 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.100.57:8103:unknown:Guangzhou_1.0_false_false_Guangzhou]
+
+2023-07-02 22:16:40,635 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.100.57:8101_false,192.168.100.57:8102_false,
+
+2023-07-02 22:16:40,902 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Shanghai, dead ips size: 1, content: [192.168.100.57:8102:unknown:Shanghai_1.0_false_false_Shanghai]
+
+2023-07-02 22:16:40,902 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.100.57:8101_false,
+
+2023-07-02 22:16:40,983 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.100.57:8203:unknown:Guangzhou_1.0_false_false_Guangzhou]
+
+2023-07-02 22:16:40,983 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.100.57:8202_false,
+
+2023-07-02 22:16:40,983 INFO service: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.100.57:8301@DEFAULT, region: unknown, msg: client beat ok
+
+2023-07-02 22:16:40,984 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: Beijing, dead ips size: 1, content: [192.168.100.57:8101:unknown:Beijing_1.0_false_false_Beijing]
+
+2023-07-02 22:16:40,984 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 
+
+2023-07-02 22:16:40,984 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: Shanghai, dead ips size: 1, content: [192.168.100.57:8202:unknown:Shanghai_1.0_false_false_Shanghai]
+
+2023-07-02 22:16:40,984 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 
+
+2023-07-02 22:16:40,986 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.100.57:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-02 22:16:40,986 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 
+
+2023-07-02 22:16:41,207 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.100.57:8101:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-07-02 22:16:41,207 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.100.57:8101_true,
+
+2023-07-02 22:16:41,438 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.100.57:8103:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-07-02 22:16:41,438 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.100.57:8101_true,192.168.100.57:8103_true,
+
+2023-07-02 22:16:43,106 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.100.57:8202:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-07-02 22:16:43,106 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.100.57:8202_true,
+
+2023-07-02 22:16:43,605 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Beijing, new ips size: 1, content: [192.168.100.57:8201:unknown:Beijing_1.0_true_false_Beijing]
+
+2023-07-02 22:16:43,605 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.100.57:8201_true,192.168.100.57:8202_true,
+
+2023-07-02 22:16:43,835 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.100.57:8203:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-07-02 22:16:43,835 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.100.57:8201_true,192.168.100.57:8202_true,192.168.100.57:8203_true,
+
+2023-07-02 22:16:44,434 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.100.57:8102:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-07-02 22:16:44,434 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.100.57:8101_true,192.168.100.57:8102_true,192.168.100.57:8103_true,
+
+2023-07-02 22:16:45,996 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.100.57:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-02 22:16:45,996 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.100.57:8301_true,
+

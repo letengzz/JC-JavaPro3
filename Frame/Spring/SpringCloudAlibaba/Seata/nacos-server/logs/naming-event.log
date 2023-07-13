@@ -1,0 +1,112 @@
+2023-07-10 10:27:12,143 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 3, content: [192.168.1.57:8301:unknown:Shanghai_1.0_true_false_Shanghai, 10.10.25.55:8301:unknown:Shanghai_1.0_true_false_Shanghai, 10.10.24.125:8301:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2023-07-10 10:27:12,146 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 10.10.24.125:8301_true,192.168.1.57:8301_true,10.10.25.55:8301_true,
+
+2023-07-10 10:27:12,429 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 10.10.24.125:8301_true,192.168.1.57:8301_true,10.10.25.55:8301_true,
+
+2023-07-10 10:27:12,430 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 10.10.24.125:8301_true,192.168.1.57:8301_true,10.10.25.55:8301_true,
+
+2023-07-10 10:27:16,898 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 10.10.25.55:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-07-10 10:27:16,898 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-07-10 10:27:16,898 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 10.10.24.125:8301@Shanghai in 1, msg: tcp:ok+
+
+2023-07-10 10:27:21,647 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 10.10.25.55:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-07-10 10:27:21,647 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 10.10.24.125:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-07-10 10:27:21,647 INFO serviceName: DEFAULT_GROUP@@borrowservice {OTHER} {IP-ENABLED} pre-valid: 192.168.1.57:8301@Shanghai in 2, msg: tcp:ok+
+
+2023-07-10 10:27:23,655 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.24.125:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-07-10 10:27:23,655 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 192.168.1.57:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-07-10 10:27:23,658 INFO serviceName: DEFAULT_GROUP@@borrowservice {POS} {IP-ENABLED} valid: 10.10.25.55:8301@Shanghai, region: unknown, msg: tcp:ok+
+
+2023-07-10 10:27:38,157 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.102:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-10 10:27:38,158 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 10.10.24.125:8301_true,192.168.1.57:8301_true,10.10.25.55:8301_true,192.168.0.102:8301_true,
+
+2023-07-10 10:27:40,317 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.102:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-10 10:27:40,317 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.0.102:8101_true,
+
+2023-07-10 10:27:42,911 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.102:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-10 10:27:42,911 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.0.102:8201_true,
+
+2023-07-10 11:18:14,656 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.102:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-10 11:18:14,656 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 10.10.24.125:8301_true,192.168.1.57:8301_true,10.10.25.55:8301_true,
+
+2023-07-10 11:18:14,690 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.102:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-10 11:18:14,690 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 
+
+2023-07-10 11:18:14,698 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.102:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-10 11:18:14,698 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 
+
+2023-07-10 11:18:34,213 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.102:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-10 11:18:34,213 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.0.102:8101_true,
+
+2023-07-10 11:18:37,023 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.102:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-10 11:18:37,023 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.0.102:8201_true,
+
+2023-07-10 11:18:40,085 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.102:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-10 11:18:40,085 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 10.10.24.125:8301_true,192.168.1.57:8301_true,10.10.25.55:8301_true,192.168.0.102:8301_true,
+
+2023-07-10 11:19:34,327 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.102:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-10 11:19:34,327 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.0.102:8101_true,
+
+2023-07-10 11:19:35,218 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.102:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-10 11:19:35,218 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.0.102:8301_true,
+
+2023-07-10 11:19:37,145 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.102:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-10 11:19:37,145 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.0.102:8201_true,
+
+2023-07-10 11:19:39,343 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.102:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-10 11:19:39,343 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.0.102:8101_true,
+
+2023-07-10 11:21:31,840 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [198.18.0.1:8868:unknown:default_1.0_true_false_default]
+
+2023-07-10 11:21:31,840 INFO [IP-UPDATED] namespace: e11f85d2-3ea6-4964-884a-95d061227345, service: SEATA_GROUP@@seata-server, ips: 198.18.0.1:8868_true,
+
+2023-07-10 11:41:22,039 INFO [IP-UPDATED] namespace: e11f85d2-3ea6-4964-884a-95d061227345, service: SEATA_GROUP@@seata-server, ips: 198.18.0.1:8868_true,
+
+2023-07-10 13:01:01,472 INFO {POS} {IP-DISABLED} valid: 198.18.0.1:8868@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1688965246027
+
+2023-07-10 13:01:04,074 INFO [IP-UPDATED] namespace: e11f85d2-3ea6-4964-884a-95d061227345, service: SEATA_GROUP@@seata-server, ips: 198.18.0.1:8868_false,
+
+2023-07-10 13:01:09,073 INFO service: SEATA_GROUP@@seata-server {POS} {IP-ENABLED} valid: 198.18.0.1:8868@default, region: unknown, msg: client beat ok
+
+2023-07-10 13:18:43,103 INFO {POS} {IP-DISABLED} valid: 198.18.0.1:8868@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1688966306033
+
+2023-07-10 13:18:58,130 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [198.18.0.1:8868:unknown:default_1.0_false_false_default]
+
+2023-07-10 13:18:58,130 INFO [IP-UPDATED] namespace: e11f85d2-3ea6-4964-884a-95d061227345, service: SEATA_GROUP@@seata-server, ips: 
+
+2023-07-10 15:50:46,950 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [198.18.0.1:8868:unknown:default_1.0_true_false_default]
+
+2023-07-10 15:50:46,950 INFO [IP-UPDATED] namespace: e11f85d2-3ea6-4964-884a-95d061227345, service: SEATA_GROUP@@seata-server, ips: 198.18.0.1:8868_true,
+
+2023-07-10 15:54:24,427 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.102:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-10 15:54:24,427 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 
+
+2023-07-10 15:54:32,473 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.102:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-10 15:54:32,473 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 
+
+2023-07-10 15:54:41,635 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.102:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-10 15:54:41,635 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 
+

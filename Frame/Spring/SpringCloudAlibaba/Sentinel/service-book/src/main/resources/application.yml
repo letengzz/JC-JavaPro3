@@ -1,0 +1,23 @@
+server:
+  port: 8101
+spring:
+  # 应用名称 bookservice
+  application:
+    name: bookservice
+  datasource:
+    url: jdbc:mysql://localhost:3306/springcloud?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123123
+  cloud:
+    nacos:
+      discovery:
+        # 配置Nacos注册中心地址
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        # 添加监控页面地址即可
+        dashboard: localhost:8858
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

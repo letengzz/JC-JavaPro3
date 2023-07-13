@@ -1,0 +1,273 @@
+2023-03-30 15:00:19,266 INFO Starting Nacos v1.4.1 on 我的电脑 with PID 3220 (D:\Develop\JC-JavaPro\SpringCloudAlibaba\nacos\nacos-server\target\nacos-server.jar started by 20208 in D:\Develop\JC-JavaPro\SpringCloudAlibaba\nacos)
+
+2023-03-30 15:00:19,268 INFO The following profiles are active: standalone
+
+2023-03-30 15:00:23,796 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4a9e6faf' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-03-30 15:00:23,804 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-03-30 15:00:24,661 INFO Tomcat initialized with port(s): 8848 (http)
+
+2023-03-30 15:00:24,734 INFO Starting service [Tomcat]
+
+2023-03-30 15:00:24,735 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2023-03-30 15:00:24,948 WARN Failed to scan [jar:file:/D:/Develop/JC-JavaPro/SpringCloudAlibaba/nacos/nacos-server/target/nacos-server.jar!/BOOT-INF/lib/spring-webmvc-5.1.18.RELEASE.jar!/] from classloader hierarchy
+
+java.io.IOException: Unable to open root Jar file 'war:file:/D:/Develop/JC-JavaPro/SpringCloudAlibaba/nacos/nacos-server/target/nacos-server.jar*/BOOT-INF/lib/spring-webmvc-5.1.18.RELEASE.jar'
+	at org.springframework.boot.loader.jar.Handler.getRootJarFile(Handler.java:318)
+	at org.springframework.boot.loader.jar.Handler.getRootJarFileFromUrl(Handler.java:300)
+	at org.springframework.boot.loader.jar.Handler.openConnection(Handler.java:86)
+	at java.base/java.net.URL.openConnection(URL.java:1094)
+	at java.base/java.net.URL.openStream(URL.java:1161)
+	at org.apache.tomcat.util.descriptor.tld.TldResourcePath.openStream(TldResourcePath.java:127)
+	at org.apache.tomcat.util.descriptor.tld.TldParser.parse(TldParser.java:61)
+	at org.apache.jasper.servlet.TldScanner.parseTld(TldScanner.java:275)
+	at org.apache.jasper.servlet.TldScanner$TldScannerCallback.scan(TldScanner.java:315)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:387)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:318)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:270)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:233)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5128)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:105)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:416)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.alibaba.nacos.Nacos.main(Nacos.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:107)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.PropertiesLauncher.main(PropertiesLauncher.java:467)
+Caused by: java.lang.IllegalStateException: Not a file URL
+	at org.springframework.boot.loader.jar.Handler.getRootJarFile(Handler.java:306)
+	... 60 common frames omitted
+2023-03-30 15:00:25,210 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2023-03-30 15:00:25,216 INFO Initializing Spring embedded WebApplicationContext
+
+2023-03-30 15:00:25,216 INFO Root WebApplicationContext: initialization completed in 5843 ms
+
+2023-03-30 15:00:26,050 INFO HikariPool-1 - Starting...
+
+2023-03-30 15:00:26,059 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+
+2023-03-30 15:00:26,478 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+
+2023-03-30 15:00:26,482 INFO HikariPool-1 - Start completed.
+
+2023-03-30 15:00:27,688 INFO Nacos-related cluster resource initialization
+
+2023-03-30 15:00:27,709 INFO The cluster resource is initialized
+
+2023-03-30 15:00:28,650 INFO Reflections took 63 ms to scan 1 urls, producing 4 keys and 6 values 
+
+2023-03-30 15:00:28,699 INFO Reflections took 10 ms to scan 1 urls, producing 6 keys and 26 values 
+
+2023-03-30 15:00:28,725 INFO Reflections took 8 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2023-03-30 15:00:28,740 INFO Reflections took 4 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2023-03-30 15:00:30,069 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2023-03-30 15:00:30,258 INFO Adding welcome page: class path resource [static/index.html]
+
+2023-03-30 15:00:30,918 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2023-03-30 15:00:30,970 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46046c06, org.springframework.security.web.context.SecurityContextPersistenceFilter@50a13c2f, org.springframework.security.web.header.HeaderWriterFilter@769bd849, org.springframework.security.web.csrf.CsrfFilter@4887de2b, org.springframework.security.web.authentication.logout.LogoutFilter@7bcecef6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53c99b09, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b6eae52, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@93824eb, org.springframework.security.web.session.SessionManagementFilter@76f881d9, org.springframework.security.web.access.ExceptionTranslationFilter@2582b0ef]
+
+2023-03-30 15:00:31,143 INFO Initializing ExecutorService 'taskScheduler'
+
+2023-03-30 15:00:31,186 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2023-03-30 15:00:31,363 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2023-03-30 15:00:31,368 INFO Started Nacos in 14.59 seconds (JVM running for 16.25)
+
+2023-03-30 15:00:31,369 INFO Nacos started successfully in stand alone mode. use embedded storage
+
+2023-03-30 15:00:45,395 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2023-03-30 15:00:45,395 INFO Initializing Servlet 'dispatcherServlet'
+
+2023-03-30 15:00:45,415 INFO Completed initialization in 20 ms
+
+2023-03-30 15:10:29,204 INFO [capacityManagement] start correct usage
+
+2023-03-30 15:10:29,215 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 15:10:29,510 WARN clearConfigHistory start
+
+2023-03-30 15:20:29,216 INFO [capacityManagement] start correct usage
+
+2023-03-30 15:20:29,216 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 15:20:29,516 WARN clearConfigHistory start
+
+2023-03-30 15:30:29,218 INFO [capacityManagement] start correct usage
+
+2023-03-30 15:30:29,218 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 15:30:29,517 WARN clearConfigHistory start
+
+2023-03-30 15:40:29,220 INFO [capacityManagement] start correct usage
+
+2023-03-30 15:40:29,220 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 15:40:29,519 WARN clearConfigHistory start
+
+2023-03-30 15:50:29,221 INFO [capacityManagement] start correct usage
+
+2023-03-30 15:50:29,222 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 15:50:29,520 WARN clearConfigHistory start
+
+2023-03-30 16:00:29,223 INFO [capacityManagement] start correct usage
+
+2023-03-30 16:00:29,223 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 16:00:29,524 WARN clearConfigHistory start
+
+2023-03-30 16:10:29,224 INFO [capacityManagement] start correct usage
+
+2023-03-30 16:10:29,224 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 16:10:29,525 WARN clearConfigHistory start
+
+2023-03-30 16:20:29,225 INFO [capacityManagement] start correct usage
+
+2023-03-30 16:20:29,225 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 16:20:29,527 WARN clearConfigHistory start
+
+2023-03-30 16:30:29,226 INFO [capacityManagement] start correct usage
+
+2023-03-30 16:30:29,226 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 16:30:29,528 WARN clearConfigHistory start
+
+2023-03-30 16:40:29,227 INFO [capacityManagement] start correct usage
+
+2023-03-30 16:40:29,227 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 16:40:29,528 WARN clearConfigHistory start
+
+2023-03-30 16:50:29,228 INFO [capacityManagement] start correct usage
+
+2023-03-30 16:50:29,237 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 16:50:29,530 WARN clearConfigHistory start
+
+2023-03-30 17:00:29,239 INFO [capacityManagement] start correct usage
+
+2023-03-30 17:00:29,239 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 17:00:29,531 WARN clearConfigHistory start
+
+2023-03-30 17:10:29,240 INFO [capacityManagement] start correct usage
+
+2023-03-30 17:10:29,240 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 17:10:29,533 WARN clearConfigHistory start
+
+2023-03-30 17:20:29,242 INFO [capacityManagement] start correct usage
+
+2023-03-30 17:20:29,242 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 17:20:29,535 WARN clearConfigHistory start
+
+2023-03-30 17:30:29,244 INFO [capacityManagement] start correct usage
+
+2023-03-30 17:30:29,244 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 17:30:29,535 WARN clearConfigHistory start
+
+2023-03-30 17:40:29,245 INFO [capacityManagement] start correct usage
+
+2023-03-30 17:40:29,246 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 17:40:29,537 WARN clearConfigHistory start
+
+2023-03-30 18:27:27,278 WARN clearConfigHistory start
+
+2023-03-30 18:27:53,851 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m56s905ms345µs700ns).
+
+2023-03-30 18:34:56,135 INFO [capacityManagement] start correct usage
+
+2023-03-30 18:34:56,135 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 18:37:27,280 WARN clearConfigHistory start
+
+2023-03-30 18:44:56,137 INFO [capacityManagement] start correct usage
+
+2023-03-30 18:44:56,137 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 18:47:27,281 WARN clearConfigHistory start
+
+2023-03-30 18:54:56,137 INFO [capacityManagement] start correct usage
+
+2023-03-30 18:54:56,137 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 18:57:27,282 WARN clearConfigHistory start
+
+2023-03-30 19:04:56,139 INFO [capacityManagement] start correct usage
+
+2023-03-30 19:04:56,139 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 19:07:27,283 WARN clearConfigHistory start
+
+2023-03-30 19:14:56,140 INFO [capacityManagement] start correct usage
+
+2023-03-30 19:14:56,140 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 19:17:27,285 WARN clearConfigHistory start
+
+2023-03-30 19:24:56,142 INFO [capacityManagement] start correct usage
+
+2023-03-30 19:24:56,142 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 19:27:27,286 WARN clearConfigHistory start
+
+2023-03-30 19:34:56,143 INFO [capacityManagement] start correct usage
+
+2023-03-30 19:34:56,143 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-03-30 19:37:27,288 WARN clearConfigHistory start
+

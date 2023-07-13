@@ -1,0 +1,66 @@
+2023-06-29 20:31:40,523 INFO notifyConnectTimeout:200
+
+2023-06-29 20:31:40,534 INFO notifySocketTimeout:8000
+
+2023-06-29 20:31:40,534 INFO isHealthCheck:true
+
+2023-06-29 20:31:40,534 INFO maxHealthCheckFailCount:12
+
+2023-06-29 20:31:40,534 INFO maxContent:10485760
+
+2023-06-29 20:31:40,535 INFO spring.datasource.platform:mysql
+
+2023-06-29 20:31:49,319 WARN DumpService start
+
+2023-06-29 20:31:49,319 INFO start clear all config-info.
+
+2023-06-29 20:31:49,319 WARN clear all config-info failed.
+
+2023-06-29 20:31:49,319 WARN clear all config-info-tenant failed.
+
+2023-06-29 20:31:49,319 INFO start clear all config-info-beta.
+
+2023-06-29 20:31:49,319 WARN clear all config-info-beta failed.
+
+2023-06-29 20:31:49,319 WARN clear all config-info-beta-tenant failed.
+
+2023-06-29 20:31:49,319 INFO start clear all config-info-tag.
+
+2023-06-29 20:31:49,335 WARN clear all config-info-tag failed.
+
+2023-06-29 20:31:49,335 WARN clear all config-info-tag-tenant failed.
+
+2023-06-29 22:16:22,810 INFO notifyConnectTimeout:200
+
+2023-06-29 22:16:22,814 INFO notifySocketTimeout:8000
+
+2023-06-29 22:16:22,815 INFO isHealthCheck:true
+
+2023-06-29 22:16:22,815 INFO maxHealthCheckFailCount:12
+
+2023-06-29 22:16:22,815 INFO maxContent:10485760
+
+2023-06-29 22:16:22,815 INFO spring.datasource.platform:mysql
+
+2023-06-29 22:16:30,748 WARN DumpService start
+
+2023-06-29 22:16:30,749 INFO start clear all config-info.
+
+2023-06-29 22:16:30,753 INFO clear all config-info success.
+
+2023-06-29 22:16:30,754 WARN clear all config-info-tenant failed.
+
+2023-06-29 22:16:30,782 INFO [all-dump] 1 / 1
+
+2023-06-29 22:16:30,782 INFO start clear all config-info-beta.
+
+2023-06-29 22:16:30,782 WARN clear all config-info-beta failed.
+
+2023-06-29 22:16:30,782 WARN clear all config-info-beta-tenant failed.
+
+2023-06-29 22:16:30,783 INFO start clear all config-info-tag.
+
+2023-06-29 22:16:30,783 WARN clear all config-info-tag failed.
+
+2023-06-29 22:16:30,784 WARN clear all config-info-tag-tenant failed.
+

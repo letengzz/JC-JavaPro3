@@ -1,0 +1,76 @@
+2023-07-10 10:27:11,391 INFO raft peers changed: [Member{ip='192.168.0.102', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2023-07-10 10:27:11,423 INFO initializing Raft sub-system
+
+2023-07-10 10:27:11,528 INFO finish loading all datums, size: 2 cost 105 ms.
+
+2023-07-10 10:27:11,531 INFO cache loaded, datum count: 2, current term: 0
+
+2023-07-10 10:27:11,531 INFO finish to load data from disk, cost: 108 ms.
+
+2023-07-10 10:27:11,534 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2023-07-10 10:27:12,040 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2023-07-10 10:27:12,057 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2023-07-10 10:27:12,057 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@borrowservice, value: Service{name='DEFAULT_GROUP@@borrowservice', protectThreshold=0.0, appName='null', groupName='DEFAULT_GROUP', metadata={}}
+
+2023-07-10 10:27:12,057 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@borrowservice
+
+2023-07-10 10:27:12,426 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@borrowservice, value: Service{name='DEFAULT_GROUP@@borrowservice', protectThreshold=0.0, appName='null', groupName='DEFAULT_GROUP', metadata={}}
+
+2023-07-10 10:27:12,429 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@borrowservice
+
+2023-07-10 10:27:16,379 WARN start to close old raft protocol!!!
+
+2023-07-10 10:27:16,379 WARN stop old raft protocol task for notifier
+
+2023-07-10 10:27:16,379 WARN stop old raft protocol task for master task
+
+2023-07-10 10:27:16,379 WARN stop old raft protocol task for heartbeat task
+
+2023-07-10 10:27:16,379 WARN clean old cache datum for old raft
+
+2023-07-10 10:27:16,379 WARN start to close old raft protocol!!!
+
+2023-07-10 10:27:16,379 WARN stop old raft protocol task for notifier
+
+2023-07-10 10:27:16,379 WARN stop old raft protocol task for master task
+
+2023-07-10 10:27:16,379 WARN stop old raft protocol task for heartbeat task
+
+2023-07-10 10:27:16,379 WARN clean old cache datum for old raft
+
+2023-07-10 10:27:16,379 WARN start to move old raft protocol metadata
+
+2023-07-10 10:27:16,381 WARN start to move old raft protocol metadata
+
+2023-07-10 10:27:16,381 INFO raft peers changed: [Member{ip='192.168.0.102', port=8848, state=UP, extendInfo={lastRefreshTime=1688956036381, raftPort=7848, version=1.4.1}}]
+
+2023-07-10 10:27:40,143 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@bookservice
+
+2023-07-10 10:27:42,908 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@userservice
+
+2023-07-10 11:19:30,249 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@bookservice
+
+2023-07-10 11:19:32,417 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@borrowservice
+
+2023-07-10 11:19:34,326 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@bookservice
+
+2023-07-10 11:19:34,509 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@userservice
+
+2023-07-10 11:19:35,217 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@borrowservice
+
+2023-07-10 11:19:37,144 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@userservice
+
+2023-07-10 11:19:37,624 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@bookservice
+
+2023-07-10 11:19:39,343 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@bookservice
+
+2023-07-10 11:21:31,839 INFO add listener: com.alibaba.nacos.naming.iplist.e11f85d2-3ea6-4964-884a-95d061227345##SEATA_GROUP@@seata-server
+
+2023-07-10 13:21:02,068 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.e11f85d2-3ea6-4964-884a-95d061227345##SEATA_GROUP@@seata-server
+
+2023-07-10 15:50:46,947 INFO add listener: com.alibaba.nacos.naming.iplist.e11f85d2-3ea6-4964-884a-95d061227345##SEATA_GROUP@@seata-server
+
