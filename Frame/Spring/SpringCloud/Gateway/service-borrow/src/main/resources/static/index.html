@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+  <script>
+    function sendAjax() {
+      $.ajax({
+        method: 'GET',
+        // url: "http://127.0.0.1:8082/borrow/1",
+        url: "http://localhost:8500/borrow/1",
+        contentType: 'application/json; charset=UTF-8',
+        success: function() {
+          alert("成功");
+        }
+      });
+    }
+  </script>
+</head>
+<body>
+<button onclick="sendAjax();" >send ajax</button>
+</body>
+</html>

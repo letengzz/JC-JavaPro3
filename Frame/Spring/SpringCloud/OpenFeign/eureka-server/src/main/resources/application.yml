@@ -1,0 +1,27 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: eurekaserver
+eureka:
+  instance:
+    # 由于不支持多个localhost的Eureka服务器，但是又只有本地测试环境，所以就只能自定义主机名称了
+    # 主机名称改为eureka
+    hostname: eureka
+  # 开启之前需要修改一下客户端设置（虽然是服务端
+  client:
+    # 由于我们是作为服务端角色，所以不需要获取服务端，改为false，默认为true
+    fetch-registry: false
+    # 暂时不需要将自己也注册到Eureka
+    #    register-with-eureka: false
+    # 去掉register-with-eureka选项，让Eureka服务器自己注册到其他Eureka服务器，这样才能相互启用
+    service-url:
+      # 将eureka服务端指向自己
+      #    service-url:
+      #      defaultZone: http://localhost:8888/eureka
+      # eureka 服务地址，如果是集群的话；需要指定其它集群eureka地址
+      # 注意这里填写其他Eureka服务器的地址，不用写自己的
+      defaultZone: http://eureka01:8801/eureka,http://eureka02:8802/eureka
+  server:
+    eviction-interval-timer-in-ms: 1000 # 扫描失效服务的间隔时间（缺省为60*1000ms）
+    enable-self-preservation: false # 关闭自我保护模式（缺省为打开）

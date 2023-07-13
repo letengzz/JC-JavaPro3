@@ -1,0 +1,19 @@
+server:
+  port: 8700
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          # 配置⽂件所在的git仓库 这里填写的是本地仓库地址，远程仓库直接填写远程仓库地址 http://git...
+          uri: D:\Develop\JC-JavaPro\SpringCloud\Config\config-repo
+          # 配置文件所在目录
+          # search-paths: config
+          # 默认分支设定为你自己本地或是远程分支的名称
+          default-label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka:8888/eureka,http://eureka01:8801/eureka,http://eureka02:8802/eureka

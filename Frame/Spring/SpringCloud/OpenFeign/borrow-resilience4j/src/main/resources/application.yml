@@ -1,0 +1,43 @@
+server:
+  port: 8982
+spring:
+  application:
+    name: borrowservice
+  datasource:
+    url: jdbc:mysql://localhost:3306/springcloud?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123123
+  # 解决多个同名Feign的报错问题
+  main:
+    allow-bean-definition-overriding: true
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+eureka:
+  client:
+    # 将三个Eureka的地址都加入，这样就算有一个Eureka挂掉，也能完成注册
+    service-url:
+      defaultZone: http://eureka:8888/eureka,http://eureka01:8801/eureka,http://eureka02:8802/eureka
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000 #防止由于服务器处理时间长而阻塞调用者
+        readTimeout: 5000 #从连接建立时开始应用，在返回响应时间过长时触发
+      userservcie:
+        connectTimeout: 5000 #防止由于服务器处理时间长而阻塞调用者
+        readTimeout: 5000 #从连接建立时开始应用，在返回响应时间过长时触发
+  circuitbreaker:
+    enabled: true
+  compression:
+    request:
+      enabled: true # 请求压缩
+      mime-types: text/xml,application/xml,application/json # 压缩的类型
+      min-request-size: 2048 # 请求最小压缩的阈值
+    response:
+      enabled: true #响应压缩
+      useGzipDecoder: true #使用gzip解码器解码响应数据
+logging:
+  level:
+    com.hjc: debug

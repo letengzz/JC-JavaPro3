@@ -1,0 +1,143 @@
+server:
+  port: 8500
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka:8888/eureka,http://eureka01:8801/eureka,http://eureka02:8802/eureka
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      # 设置跨域
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            max-age: 3600
+            allowed-origin-patterns: "*" # spring boot2.4配置
+            #            allowed-origins: "*"
+            allowed-headers: "*"
+            allow-credentials: true
+            allowed-methods:
+              - GET
+              - POST
+              - DELETE
+              - PUT
+              - OPTION
+      # 配置路由，注意这里是个列表，每一项都包含了很多信息
+      routes:
+        # 基础路由配置
+        - id: service1
+          uri: https://www.oracle.com/
+          predicates:
+            - Path=/sg
+        # 设置路由优先级
+        - id: service2
+          uri: http://localhost:8081/
+          order: 2
+          predicates:
+            - Path=/port
+        - id: service3
+          uri: http://localhost:8999/
+          order: 1
+          predicates:
+            - Path=/port
+        # 注册中心中的路由配置
+        - id: borrow-service   # 路由名称
+          uri: lb://borrowservice  # 路由的地址，lb表示使用负载均衡到微服务，也可以使用http正常转发
+          predicates: # 路由规则，断言什么请求会被路由
+            - Path=/borrow/**  # 只要是访问的这个路径，一律都被路由到上面指定的服务
+        # 注意-要对齐routes:
+        - id: book-service
+          uri: lb://bookservice
+          predicates:
+            - Path=/book/**
+          filters: # 添加过滤器
+            - AddRequestHeader=Test, HelloWorld!
+          # AddRequestHeader 就是添加请求头信息，其他工厂请查阅官网
+
+        # 断言条件
+        - id: service4
+          uri: http://localhost:8083/book/2
+          order: 0
+          predicates:
+            # 通过请求参数匹配
+            - Query=smile
+            # 通过请求参数匹配以键值对的方式进行配置
+            #- Query=keep, pu.
+            # 通过Header匹配
+            #- Header=X-Request-Id, \d+
+            # 通过Cookie匹配
+            #- Cookie=sessionId, test
+            # 通过Host匹配
+            #- Host=**.baidu.com
+            # 通过请求方式匹配
+            #- Method=PUT
+            # 通过请求路径匹配
+            - Path=/baidu/{segment}
+            # 可以组合匹配 自由搭配
+        # 过滤器
+        - id: service5
+          uri: http://127.0.0.1:8082
+          predicates:
+            #            - Path=/{segment}
+            # - Path=/api/{segment}
+            - Path=/api/borrow/{segment}
+          filters: # 添加过滤器
+            # 跳过指定的路径 去掉一个/api
+            # - StripPrefix=1
+            # 添加前缀
+            # - PrefixPath=/borrow
+            # 路径重写
+            # - RewritePath=/api/(?<segment>.*), /$\{segment}
+            # SetPath和Rewrite类似
+            - SetPath=/borrow/{segment}
+            # 添加请求头信息
+            - AddRequestHeader=Test, HelloWorld!
+            # 设置请求头信息
+            - SetRequestHeader=X-Request-Red, Blue
+            # 去掉请求头信息
+            - RemoveRequestHeader=X-Request-Red
+            # 去掉回执头信息
+            - RemoveResponseHeader=Test
+            # 去掉请求参数信息
+            - RemoveRequestParameter=a
+        # 对所有请求添加过滤器
+        #default-filters:
+        - id: borrow   # 路由名称
+          uri: lb://borrowservice  # 路由的地址，lb表示使用负载均衡到微服务，也可以使用http正常转发
+          predicates: # 路由规则，断言什么请求会被路由
+            - Path=/b/{segment}  # 只要是访问的这个路径，一律都被路由到上面指定的服务
+          filters:
+            - SetPath=/borrow/{segment}
+            - name: CircuitBreaker
+              args:
+                name: backendA
+                fallbackUri: forward:/fallbackA
+
+# 熔断降级
+resilience4j:
+  circuitbreaker:
+    configs:
+      default:
+        failureRateThreshold: 30 #失败请求百分比，超过这个比例，CircuitBreaker变为OPEN状态
+        slidingWindowSize: 10 #滑动窗口的大小，配置COUNT_BASED,表示10个请求，配置TIME_BASED表示10秒
+        minimumNumberOfCalls: 5 #最小请求个数，只有在滑动窗口内，请求个数达到这个个数，才会触发CircuitBreader对于断路器的判断
+        slidingWindowType: TIME_BASED #滑动窗口的类型
+        permittedNumberOfCallsInHalfOpenState: 3 #当CircuitBreaker处于HALF_OPEN状态的时候，允许通过的请求个数
+        automaticTransitionFromOpenToHalfOpenEnabled: true #设置true，表示自动从OPEN变成HALF_OPEN，即使没有请求过来
+        waitDurationInOpenState: 2s #从OPEN到HALF_OPEN状态需要等待的时间
+        recordExceptions: #异常名单
+          - java.lang.Exception
+    instances:
+      backendA:
+        baseConfig: default
+      backendB:
+        failureRateThreshold: 50
+        slowCallDurationThreshold: 2s #慢调用时间阈值，高于这个阈值的呼叫视为慢调用，并增加慢调用比例。
+        slowCallRateThreshold: 30 #慢调用百分比阈值，断路器把调用时间大于slowCallDurationThreshold，视为慢调用，当慢调用比例大于阈值，断路器打开，并进行服务降级
+        slidingWindowSize: 10
+        slidingWindowType: TIME_BASED
+        minimumNumberOfCalls: 2
+        permittedNumberOfCallsInHalfOpenState: 2
+        waitDurationInOpenState: 120s #从OPEN到HALF_OPEN状态需要等待的时间
